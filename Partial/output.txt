@@ -1,0 +1,31 @@
+C:\Users\alex2\PycharmProjects\PythonProject\.venv\Scripts\python.exe C:\Users\alex2\PycharmProjects\PythonProject\main.py 
+1b)
+P(H = yes| C = comfortable) 0.470084368675192
+P(E = high | C = comfortable) 0.48205062120511516
+MAP: 0.36490778572024174
+(W ⟂ C | R)
+(R ⟂ O | W, H)
+(O ⟂ C | R)
+(C ⟂ H | R)
+(O ⟂ E | H)
+(R ⟂ E | H)
+(W ⟂ H | O)
+(W ⟂ E | O)
+(C ⟂ E | R)
+1c
+d-connected:  False
+(W ⟂ E | H) : no
+(O ⟂ C | R) : yes
+justificare: din model.get_independencies() de mai sus / din markov blankets + parinti din graf
+
+2
+
+b
+log prob: -3.8576650369552503
+prob: 0.021117250000000008
+c
+['W', 'R', 'S']
+viterbi scales better with the size of the sequence i.e. it has better time complexity and it gets progressively better than brute force as we increase the dimension of the sequence
+d) empirical: 0.0115 forward:0.021117250000000008 <=> forward prob > empirical prob
+
+Process finished with exit code 0
